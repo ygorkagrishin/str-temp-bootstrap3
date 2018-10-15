@@ -1,0 +1,56 @@
+.page-footer {
+  padding: 46px 0 20px;
+  border-top: 1px solid $gray;
+}
+
+.bg-page-footer {
+  background-color: $gray-lighter;
+}
+
+.footer-menu {
+  margin-bottom: 30px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba($gray-light,.3);
+
+  .footer-menu-title { 
+    margin-bottom: 5px;  
+  
+    font-family: inherit;
+    a {
+      text-transform: uppercase;
+      color: $gray;
+    }
+  }
+
+  li > a {
+    color: $gray;
+  }
+}
+
+.footer-address {
+  strong {
+    display: inline-block;
+  }
+  address {
+    line-height: 24px;
+  }
+}
+
+.footer-tel {  
+  &-num { 
+    display: inline-block;
+    margin-bottom: 14px;
+
+    font: 100 36px / 1 'Roboto', sans-serif;
+    color: $brand-info;
+  }
+}
+
+.footer-links {
+  & > li {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 47px;
+    }
+  }
+}
